@@ -9,6 +9,7 @@ export default function Home() {
     i18n.changeLanguage(lng);
   };
 
+  // i18
   return (
     <div>
     <select className="language-select" onChange={(e) => changeLanguage(e.target.value)}>
